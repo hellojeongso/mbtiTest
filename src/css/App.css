@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .mbtiLayout {
@@ -11,12 +12,13 @@
 }
 
 .mbtiLayout {
-  width: 100vw;
+  width: 100%;
   font-size: 14px;
   display: flex;
   justify-content: center;
   background-color: #000000;
   color: #fff;
+  /* height: 100%; */
   height: calc(var(--vh,1vh)*100);
   background-image: url(/public/img/space.jpg);
   background-size: cover;
